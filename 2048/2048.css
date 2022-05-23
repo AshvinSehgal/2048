@@ -1,0 +1,59 @@
+.title {
+    font-size: 70px;
+    font-family: "Helvetica";
+    text-align: center;
+}
+
+#game {
+    display:none;
+}
+
+#difficulty {
+    border-radius: 5px;
+    width: 400px;
+    height: 75px;
+    border: none;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    background-color: #b06500;
+    margin-left: 500px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.grid div {
+    width: 120px;
+    height: 120px;
+    background-color: #b06500;
+    font-size: 50px;
+    line-height:100px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 25px;
+}
+
+.score-container div {
+    display: table;
+    margin: 0 auto;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#result {
+    display: table;
+    margin: 0 auto;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}

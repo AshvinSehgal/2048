@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="'ltr">
+    <head>
+        <meta charset="utf-8">
+        <title> 2048 Game</title>
+        <link rel="stylesheet" href="2048.css">
+        <script src="2048.js" charset="utf-8"></script>
+    </head>
+    <body bgcolor="#fff9ee">
+        <div class="title">2048</div>
+
+            <br>
+            <br>
+
+        <div id="startscreen">
+            <div id="result">Select difficulty:</div>
+
+            <br>
+            <br>
+
+            <div id="selectdifficulty"> <center>
+                <button id="difficulty" class="easy">Easy</button>
+
+                <br>
+                <br>
+
+                <button id="difficulty" class="medium">Medium</button>
+
+                <br>
+                <br> 
+
+                <button id="difficulty" class="hard" onclick="hardGame()">Hard</button>
+
+                <br>
+                <br>
+
+                <button id="difficulty" class="insane" onclick="insaneGame()">Insane</button>
+            </center></div>
+        </div>
+        
+        <div id="game" display="none">
+            <div class="score-container">
+                <div class="score-title" id="score">Score: 0</div>
+            </div>
+
+            <div id="result"></div>
+
+            <div class="grid"> </div>
+        </div>
+    </body>
+</html>
